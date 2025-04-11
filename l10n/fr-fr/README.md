@@ -1,6 +1,6 @@
 ![Stumpless logo](./assets/logo-and-name.svg)
 
-**A C logging library built for high performance and a rich feature set.**
+** Une librairie de logging en C pensée pour la performance et pourvue de nombreuses fonctionnalitées.**
 
 [![Linux Builds](https://github.com/goatshriek/stumpless/actions/workflows/linux.yml/badge.svg)](https://github.com/goatshriek/stumpless/actions/workflows/linux.yml)
 [![Windows Builds](https://github.com/goatshriek/stumpless/actions/workflows/windows.yml/badge.svg)](https://github.com/goatshriek/stumpless/actions/workflows/windows.yml)
@@ -12,16 +12,13 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.1-ff69b4.svg)](https://github.com/goatshriek/stumpless/blob/latest/docs/CODE_OF_CONDUCT.md)
 
 
-[한국어](./l10n/ko-kr/README.md) | [简体中文](./l10n/zh-cn/自述.md) | [Français](./l10n/fr-fr/README.md)
+[Fonctionnalitées principales](#fonctionnalitees-principales) |
+[Compilation et installation](#compilation-et-installation) |
+[Utilisation basique](#utilisation-basique) |
+[Contribuer](#contribuer)
 
 
-[Key Features](#key-features) |
-[Build and Install](#quick-build-and-install) |
-[Basic Usage](#basic-usage) |
-[Contributing](#contributing)
-
-
-## Key Features
+## Fonctionnalitées principales
 Stumpless has lots of features that make logging in C fast and easy:
  * log to [lots of things](#what-can-it-log-to) like Splunk, rsyslog,
    journald, the Windows Event Log, sqlite, and more!
@@ -58,7 +55,7 @@ with your request and we'll work it into our
 [roadmap](https://github.com/goatshriek/stumpless/blob/latest/docs/roadmap.md)!
 
 
-## Quick Build and Install
+## Compilation et installation
 Stumpless only requires cmake and a cmake-supported build toolchain (like GCC
 or Visual Studio) to build.
 
@@ -85,7 +82,7 @@ building and installing stumpless in different environments and/or with other
 toolchains.
 
 
-## Basic Usage
+## Utilisation basique
 The simplest way to get started is to use the `stumplog` function as a direct
 replacement for the standard library's `syslog` function:
 
@@ -198,7 +195,7 @@ types, how to handle more complicated message structures, and more check out the
 run, and modify to get you started.
 
 
-## Contributing
+## Contribuer
 Notice a problem or have a feature request? Just create an issue using one of
 the templates, and we will respond as quickly as we can. You can also look at
 the project's [Contribution Guidelines](docs/CONTRIBUTING.md) for more details
